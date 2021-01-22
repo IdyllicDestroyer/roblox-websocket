@@ -1,5 +1,6 @@
-local botToken = "";
+local botToken = ""; -- https://discord.com/developers/applications/
 local status = "discord bot hosted on roblox";
+--|| put me in serverscriptservice (DO NOT MAKE ME A LOCALSCRIPT)
 local WS = require(workspace.WebSocket);
 WS.Setup("http://your.ip.here", 2030); -- port forward it you dumby. netgear users go to routerlogin.net
 local Heartbeat = 0;
