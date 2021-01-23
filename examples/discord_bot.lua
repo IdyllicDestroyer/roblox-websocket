@@ -12,7 +12,7 @@ local packets = {
 		WS.Send(game:GetService('HttpService'):JSONEncode({
 			op = 2,
 			d = {
-				token = "Bot " .. BotToken,
+				token = "Bot " .. botToken,
 				properties = {
 					["$os"] = "windows",
 					["$browser"] = "roblox",
