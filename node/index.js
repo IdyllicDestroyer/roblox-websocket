@@ -76,7 +76,7 @@ var app = express();
 app.use(require("body-parser").json());
 
 app.get("/", function( req, res ) {
-	res.send("Firebolt's Websocket Proxy is running.");
+	res.send(" Websocket Proxy is running.");
 });
 
 app.use(function( req, res, next ) {
